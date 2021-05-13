@@ -1,0 +1,36 @@
+<div style="background: url('/css/mountain.jpeg')" class="page-holder bg-cover">
+  <nav class="navbar navbar-expand-lg navbar-dark;">
+    <a class="navbar-brand" href="/main.html">
+      <img src="/img/mountain-icon-png-10.jpg" width="30" height="30" alt="" loading="lazy">
+    </a>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item active">
+          <a class="nav-link text-white" href="/reviews">All Reviews <span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item active">
+          <a class="nav-link text-white" href="/search.html">Search</a>
+        </li>
+        <li class="nav-item active">
+          <a class="nav-link text-white" href="/write_review.html">Write</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+  <div class="container py-5">
+    <form class="create-form display-form">
+      <h3 class="review-title">Your Review</h3>
+      {{!-- Input Review --}}
+      <div class="col-sm-12" id="singlePost">
+        <div class="col-sm-12">
+          <div class="col-sm-12">
+            <p>City Name : {{ review.city_name }}</p>
+            <p>City Review : {{ review.city_review }}</p>
+            <p>Hotel Name : {{ review.hotel_name }}</p>
+            <p>Hotel Review : {{ review.hotel_review }}</p>
+            {{!-- <button type="submit" class="btn btn-primary btn-lg" id="searchBtn">Submit</button> --}}
+          </div>
+        </div>
+      </div>
+    </form>
+  </div>

@@ -1,0 +1,97 @@
+.page-holder {
+  min-height: 100vh;
+}
+
+.bg-cover {
+  background-size: cover !important;
+}
+
+h1 {
+  margin-top: 20%;
+}
+
+.btn-primary {
+  color: #ffffff;
+  background-color: rgb(211, 83, 121);
+  border-color: rgb(211,93,121);
+}
+
+.btn-primary:hover {
+  color: #ffffff;
+  background-color: rgb(97, 95, 144);
+  border-color: rgb(97, 95, 144);
+}
+
+.container {
+  padding: 2px 16px;
+}
+
+.loginForm, .signup {
+  margin: 20%;
+  background-color: #ffffff;
+  padding: 15px 15px;
+  border-radius: 25px;
+}
+
+.reviewForm {
+  margin-left: 15%;
+  margin-right: 15%;
+  margin-top: 5%;
+  background-color: #ffffff;
+  padding: 15px 15px;
+  border-radius: 25px;
+  }
+
+.city-review-form, .hotel-review-form {
+  float: left;
+  height: 460px;
+  width: 45%;
+  padding: 15px;
+  margin-left: 2%;
+}
+
+.hotel-review-form {
+  margin-left: 5%;
+}
+
+#create-review {
+  margin-left: 4%;
+}
+
+.search-form, .display-form {
+  margin-top: 10%;
+  margin-left: 25%;
+  margin-right: 25%;
+  height: 400px;
+  background-color: white;
+  padding: 5px 15px;
+  border-radius: 25px;
+}
+
+.login-title, .signup-title, .review-title, .search-form {
+  text-align: center;
+}
+
+#review, #search, #signup, #login {
+  margin: 20px;
+}
+
+.card, form{
+  opacity: .6;
+}
+
+.card-body, form{
+  color: black;
+}
+
+nav {
+  background-color: rgba(255, 255, 255, 0.432);
+}
+
+#passwordHelp, #emailHelp {
+  font-style: italic;
+}
+
+button {
+  background-color: chartreuse;
+}

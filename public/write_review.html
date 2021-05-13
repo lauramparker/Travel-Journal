@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>Travel Bucket List</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta http-equiv="X-UA-Compatible" content="ie-edge">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <link rel="stylesheet" href="css/style.css" type="text/css" />
+</head>
+
+<body>
+
+  <div style="background: url('./css/mountain.jpeg')" class="page-holder bg-cover">
+    <nav class="navbar navbar-expand-lg navbar-dark;">
+      <a class="navbar-brand" href="/main.html">
+        <img src="img/mountain-icon-png-10.jpg" width="30" height="30" alt="" loading="lazy">
+      </a>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item active">
+            <a class="nav-link text-white" href="/reviews">All Reviews <span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item active">
+            <a class="nav-link text-white" href="/search.html">Search</a>
+          </li>
+          <li class="nav-item active">
+            <a class="nav-link text-white" href="/write_review.html">Write</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+    <div class="container py-5">
+      <form class="create-form reviewForm">
+        <h3 class="review-title">Write A Review</h3>
+
+        <div class="city-review-form">
+          <div class="form-group row">
+            <label for="inputCity" class="col-sm-6 col-form-label">City Name:</label>
+            <div class="col-sm-12">
+              <input type="text" class="form-control" id="inputCity" placeholder="Name">
+            </div>
+          </div>
+          <div class="form-group row">
+            <label for="cityReview" class="col-sm-6 col-form-label">City Review:</label>
+            <div class="col-sm-12">
+              <textarea class="form-control" id="cityReview" placeholder="Review" rows="12"></textarea>
+            </div>
+          </div>
+        </div>
+
+        <div class="hotel-review-form">
+          <div class="form-group row">
+            <label for="inputHotel" class="col-sm-6 col-form-label">Hotel Name:</label>
+            <div class="col-sm-12">
+              <input type="text" class="form-control" id="inputHotel" placeholder="Name">
+            </div>
+          </div>
+          <div class="form-group row">
+            <label for="hotelReview" class="col-sm-6 col-form-label">Hotel Review:</label>
+            <div class="col-sm-12">
+              <textarea class="form-control" id="hotelReview" placeholder="Review" rows="12"></textarea>
+            </div>
+          </div>
+        </div>
+
+        <button type="submit" class="btn btn-primary btn-lg" id="create-review">Submit Review</button>
+      </form>
+
+    </div>
+  </div>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="js/write_review.js"></script>
+</body>
+
+</html>

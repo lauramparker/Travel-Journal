@@ -1,0 +1,39 @@
+{
+  "name": "TeamProject2",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js",
+    "watch": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lauramparker/TeamProject2.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lauramparker/TeamProject2/issues"
+  },
+  "homepage": "https://github.com/lauramparker/TeamProject2#readme",
+  "dependencies": {
+    "@elastic/elasticsearch": "^7.10.0",
+    "bcrypt": "^5.0.0",
+    "dotenv": "^8.1.0",
+    "express": "^4.17.1",
+    "express-handlebars": "^5.2.0",
+    "express-session": "^1.17.1",
+    "mysql": "^2.18.1",
+    "mysql2": "^2.2.5",
+    "nodemon": "^2.0.7",
+    "passport": "^0.4.1",
+    "passport-local": "^1.0.0",
+    "sequelize": "^6.5.0"
+  },
+  "engines": {
+    "node": "~14.0"
+  }
+}

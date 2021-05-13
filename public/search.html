@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Destination</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"
+        integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="./css/style.css" type="text/css" />
+</head>
+
+<body>
+    <div style="background: url('./css/mountain.jpeg')" class="page-holder bg-cover">
+        <nav class="navbar navbar-expand-lg navbar-dark;">
+            <a class="navbar-brand" href="/main.html">
+                <img src="img/mountain-icon-png-10.jpg" width="30" height="30" alt="" loading="lazy">
+            </a>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link text-white" href="/reviews">All Reviews <span class="sr-only"></span></a>
+                    </li>
+                    <li class="nav-item active">
+                        <a class="nav-link text-white" href="/search.html">Search</a>
+                    </li>
+                    <li class="nav-item active">
+                        <a class="nav-link text-white" href="/write_review.html">Write</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+
+        <!-- {{!-- ELASTICSEARCH Front-End --}} -->
+        <div class="container py-5">
+            <form class="create-form search-form">
+              <h3 class="review-title">Search Reviews</h3>
+
+
+        <div id="remote">
+            <label for="inputSearchTerm" class="col-sm-12 col-form-label">Enter a search term and select from drop down list</label>
+            <div class="col-sm-12">       
+                <input class="typeahead" type="text" placeholder="Search Reviews Here">
+            </div>
+        <!-- <button type="submit" class="btn btn-primary btn-lg" id="searchBtn">Search</button> -->
+        </div>
+
+ 
+</form>
+</div>
+</div>
+
+   <!-- {{!-- ELASTICSEARCH script --}} -->
+    <script type="text/javascript" src="js/typeahead.bundle.min.js"></script>
+    <script type="text/javascript" src="js/search.js"></script>
+
+</body>
+
+</html>
