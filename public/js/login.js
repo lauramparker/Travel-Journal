@@ -1,4 +1,6 @@
 $(document).ready(function() {
+
+  $('.carousel').carousel({interval: 7000});
  
   var loginForm = $(".loginForm");
   var email = $('.email');
