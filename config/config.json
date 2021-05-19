@@ -2,7 +2,7 @@
   "development": {
 
     "username": "root",
-    "password": "Brutu$Buck3y3!!",
+    "password": "root",
     "database": "bucket_db",
     "host": "localhost",
     "dialect": "mysql"

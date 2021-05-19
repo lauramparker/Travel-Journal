@@ -15,7 +15,7 @@ const app = express();
 const PORT = process.env.PORT || 8080;
 
 const { Client } = require('@elastic/elasticsearch')
-const client = new Client({ node: 'https://jxppt8ld4g:hmxqbbfzo8@cherry-370890600.us-east-1.bonsaisearch.net:443' });
+const client = new Client({ node: 'https://p3ahdwht1q:vjfakpe8v9@aralia-492002496.us-east-1.bonsaisearch.net:443' });
 
 
 // Requiring our models for syncing
