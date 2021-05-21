@@ -1,7 +1,14 @@
 $(document).ready(function() {
 
-  $('.carousel').carousel({interval: 7000});
- 
+
+//Carousel Images
+$('.carousel').carousel({
+  interval: 6000,
+  pause: "false"
+});
+
+
+//Login Form 
   var loginForm = $(".loginForm");
   var email = $('.email');
   var password = $('.password');
