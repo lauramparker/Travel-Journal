@@ -4,7 +4,7 @@ $(document).ready(function() {
 //Carousel Images
 $('.carousel').carousel({
   interval: 6000,
-  pause: "false"
+  cycle: true
 });
 
 

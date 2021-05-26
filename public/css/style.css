@@ -29,7 +29,7 @@ h1 {
 
 .loginForm, .signup {
   margin: 20%;
-  background-color: #ffffff;
+  background-color: rgb(97, 95, 144);
   padding: 15px 15px;
   border-radius: 25px;
 }
@@ -38,7 +38,7 @@ h1 {
   margin-left: 15%;
   margin-right: 15%;
   margin-top: 5%;
-  background-color: #ffffff;
+  background-color: rgb(97, 95, 144);
   padding: 15px 15px;
   border-radius: 25px;
   }
@@ -78,11 +78,11 @@ h1 {
 }
 
 .card, form{
-  opacity: .6;
+  opacity: .8;
 }
 
 .card-body, form{
-  color: black;
+  color: white
 }
 
 nav {
