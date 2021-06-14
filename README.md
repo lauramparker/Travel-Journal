@@ -4,6 +4,8 @@
 
 <h3>Description:</h3>
    
+   Travel Journal is a Node CRUD application with a MySQL database, Elasticsearch dynamic search engine, and Passport user authentication. Handlebars template engine and jQuery support the front-end rendering. The application allows a user to create, edit and dynamically search travel reviews.
+   
 
 
 <h3>Package Install<h3>
