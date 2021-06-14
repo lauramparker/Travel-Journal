@@ -1,5 +1,8 @@
 ## Travel Journal
  _An Express / MySQL / Handlebars Application_
+ 
+ ![License](https://img.shields.io/badge/LICENSE-MIT-blue)
+
 
 
 >  Travel Journal is a Node CRUD application with a MySQL database, Elasticsearch dynamic search engine, and Passport user authentication. Handlebars template engine and jQuery support the front-end rendering. The application allows a user to create, edit and dynamically search travel reviews.  
