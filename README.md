@@ -30,7 +30,7 @@ To set-up the development environment, clone the repository found at https://git
 - npm i passport
 ```
 
-To run the application locally, enter node server. The app will open on localhost port 3000.
+To run the application locally, enter node server. The app will open on localhost port 8080.
 
 Alternatively, the app can be accessed on heroku: [Travel Journal](https://travel-journal-lmp.herokuapp.com/)
 
