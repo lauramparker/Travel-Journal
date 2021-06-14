@@ -40,7 +40,7 @@ Use this project as an example of fullstack application using SQL, handlebars, a
 ## Credits
 Laura Parker @lauramparker
 
-This project is an expansion from our OSU Bootcamp Team Project 2 with team members: Laura Parker, Joe Mancini; Jose Calderon; Eric Ober
+This project is an expansion from our OSU Bootcamp Team Project 2 with team members: Laura Parker, Joe Mancini (@Maniac-i); Jose Calderon (@CalderonJG); Eric Ober (@esober101)
 
 ## License
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
