@@ -10,7 +10,7 @@
 
 ## Demo
 
-![travel journal demo](https://github.com/lauramparker/MVC-Hamburger/blob/main/images/MVC-Hamburgers.gif)
+![travel journal demo](https://github.com/lauramparker/Travel-Journal/blob/main/public/img/TravelLogIn.gif)
 
 ## Technologies Used
 - [Express](https://expressjs.com/)
