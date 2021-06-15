@@ -1,4 +1,4 @@
-## Travel Journal
+# Travel Journal
  _An Express / MySQL / Handlebars Application_
  
  ![License](https://img.shields.io/badge/LICENSE-MIT-blue)
