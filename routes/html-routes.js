@@ -19,7 +19,8 @@ module.exports = function(app) {
     if (req.user) {
       res.redirect("/main");
     }
-    res.sendFile(path.join(__dirname, "../public/login.html"));
+    res.redirect("/main");
+//     res.sendFile(path.join(__dirname, "../public/login.html"));
   });
 
   app.get("/signup", function(req, res) {
@@ -27,7 +28,8 @@ module.exports = function(app) {
     if (req.user) {
       res.redirect("/main");
     }
-    res.sendFile(path.join(__dirname, "../public/signup.html"));
+    res.redirect("/main");
+//     res.sendFile(path.join(__dirname, "../public/signup.html"));
   });
 
   app.get("/write", isAuthenticated, function(req, res) {
