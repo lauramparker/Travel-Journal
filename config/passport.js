@@ -15,12 +15,12 @@ passport.use(new LocalStrategy(
     }).then(function(user) {
       //if (err) { return done(err); }
       if (!user) {
-        return done(null, false, { meesage: 'Incorrect email.' });
+        return done(null, false, { message: 'Incorrect email.' });
       }
       if (!user.validPassword(password)) {
         return done(null, false, { message: 'Incorrect password'});
       }
-      return done(null, user);
+      return done(null, user, { message: 'you are logged in'});
     });
   }
 ));

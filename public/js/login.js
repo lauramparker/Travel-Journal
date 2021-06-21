@@ -36,7 +36,7 @@ $('.carousel').carousel({
       password: password,
     })
       .then(function (data) {
-        window.location.replace('/main');
+        window.location.replace('/main.html');
       })
       .catch((err) => {
         console.log(err);
