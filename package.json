@@ -10,15 +10,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/lauramparker/TeamProject2.git"
+    "url": "git+https://github.com/lauramparker/Travel-Journal.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/lauramparker/TeamProject2/issues"
+    "url": "https://github.com/lauramparker/Travel-Journal/issues"
   },
-  "homepage": "https://github.com/lauramparker/TeamProject2#readme",
+  "homepage": "https://github.com/lauramparker/Travel-Journal#readme",
   "dependencies": {
     "@elastic/elasticsearch": "^7.10.0",
     "bcrypt": "^5.0.0",

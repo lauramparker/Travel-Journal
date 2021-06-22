@@ -17,7 +17,7 @@ router.get('/api/search', async (req, res) => {
 
     try {
       var { body } = await client.search({
-       index: 'bucket_db',
+       index: 'travel_data',
        body: {
          query: {
            multi_match: {
