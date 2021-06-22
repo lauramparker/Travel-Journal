@@ -57,7 +57,7 @@ router.post('/api/reviews', async (req, res) => {
   });
   // Insert into elasticsearch
   await client.index({
-    index: 'reviews',
+    index: 'travel_data',
     refresh: true,
     body: {
       id: newReview.id,
