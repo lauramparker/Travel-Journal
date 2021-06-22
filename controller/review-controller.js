@@ -52,8 +52,8 @@ router.post('/api/reviews', async (req, res) => {
     city_name: req.body.city_name,
     city_review: req.body.city_review,
     hotel_name: req.body.hotel_name,
-    hotel_review: req.body.hotel_review,
-    UserId: req.user.id,
+    hotel_review: req.body.hotel_review
+    // UserId: req.user.id,
   });
   // Insert into elasticsearch
   await client.index({
