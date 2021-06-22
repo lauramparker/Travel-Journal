@@ -45,16 +45,16 @@ router.get('/reviews/:id', async (req, res) => {
 //Create new review/blog post
 router.post('/api/reviews', async (req, res) => {
 
-  try {
-    console.log(req.user);
-    var newReview = await db.Travel.create({
+  // try {
+  //   console.log(req.user);
+  //   var newReview = await db.Travel.create({
 
-    city_name: req.body.city_name,
-    city_review: req.body.city_review,
-    hotel_name: req.body.hotel_name,
-    hotel_review: req.body.hotel_review,
-    UserId: req.user.id,
-  });
+  //   city_name: req.body.city_name,
+  //   city_review: req.body.city_review,
+  //   hotel_name: req.body.hotel_name,
+  //   hotel_review: req.body.hotel_review,
+  //   UserId: req.user.id
+  // });
   // Insert into elasticsearch
   await client.index({
     index: 'travel_data',
@@ -67,9 +67,9 @@ router.post('/api/reviews', async (req, res) => {
       hotel_review: req.body.hotel_review,
     }
   })
-} catch (err) {
-  console.log(err);
-}
+// } catch (err) {
+//   console.log(err);
+// }
   res.json(newReview);
 });
 
