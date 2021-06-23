@@ -13,11 +13,11 @@ router.get('/reviews', async (req, res) => {
 
   try {
 
-    // var result = await db.Travel.findAll({
-    //   include: [db.User],
-    // });
+    var result = await db.Travel.findAll({
+      include: [db.User],
+    });
 
-    var result = db.Travl.findAll();
+    // var result = await db.Travel.findAll();
 
   } catch (err) {
     console.log(err);
