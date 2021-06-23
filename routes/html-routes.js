@@ -9,7 +9,7 @@ module.exports = function(app) {
   app.get("/", function(req, res) {
     
     if (req.user) {
-      res.redirect("/main");
+      res.redirect("/main.html");
     }
     res.sendFile(path.join(__dirname, "../public/index.html"));
   });
@@ -17,7 +17,7 @@ module.exports = function(app) {
   app.get("/login", function(req, res) {
     
     if (req.user) {
-      res.redirect("/main");
+      res.redirect("/main.html");
     }
     res.sendFile(path.join(__dirname, "../public/login.html"));
   });
@@ -25,7 +25,7 @@ module.exports = function(app) {
   app.get("/signup", function(req, res) {
     
     if (req.user) {
-      res.redirect("/main");
+      res.redirect("/main.html");
     }
     res.sendFile(path.join(__dirname, "../public/signup.html"));
   });
