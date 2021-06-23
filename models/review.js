@@ -35,12 +35,12 @@ module.exports = (sequelize, DataTypes) => {
     }
   });
 
-  Travel.associate = (models) => {
-    Travel.belongsTo(models.User, {
-      foreignKey: {
-        allowNull: false,
-      },
-    });
-  };
+  // Travel.associate = (models) => {
+  //   Travel.belongsTo(models.User, {
+  //     foreignKey: {
+  //       allowNull: false,
+  //     },
+  //   });
+  // };
   return Travel;
 }
