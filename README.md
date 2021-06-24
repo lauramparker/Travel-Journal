@@ -10,7 +10,7 @@
 
 ## Demo
 
-![travel journal demo](https://github.com/lauramparker/Travel-Journal/blob/main/public/img/TravelLogin.gif)
+![travel journal demo](https://drive.google.com/file/d/11vSwI8iOAN7RyNavyfLj9-ZJ0-O-007g/view)
 
 ## Technologies Used
 - [Express](https://expressjs.com/)
