@@ -23,23 +23,27 @@ $('.carousel').carousel({
     
     if(!userData.email || !userData.password) {
       return;
-    }
-    
-    logIn(userData.email, userData.password);
-    email.val("");
-    password.val("");
+    } else {
+      window.location.replace('/main.html')
+    };
+  
   });
+    
+  //   logIn(userData.email, userData.password);
+  //   email.val("");
+  //   password.val("");
+  // });
 
-  function logIn(email, password) {
-    app.post('/api/login', {
-      email: email,
-      password: password,
-    })
-      .then(function (data) {
-        window.location.replace('/main.html');
-      })
-      .catch((err) => {
-        console.log(err);
-      });
-  }
+  // function logIn(email, password) {
+  //   app.post('/api/login', {
+  //     email: email,
+  //     password: password,
+  //   })
+  //     .then(function (data) {
+  //       window.location.replace('/main.html');
+  //     })
+  //     .catch((err) => {
+  //       console.log(err);
+  //     });
+  // }
 });
