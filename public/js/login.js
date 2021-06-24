@@ -3,7 +3,7 @@ $(document).ready(function() {
 
 //Carousel Images
 $('.carousel').carousel({
-  interval: 6000,
+  interval: 3000,
   cycle: true
 });
 
