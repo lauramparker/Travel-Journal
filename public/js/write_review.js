@@ -9,17 +9,36 @@ $(document).ready(function() {
   reviewForm.on('submit', (event) => {
     event.preventDefault();
 
-    let cityData = {
+    let userData = {
       city_name: cityName.val().trim(),
       city_review: cityReview.val().trim(),
       hotel_name: hotelName.val().trim(),
       hotel_review: hotelReview.val().trim(),
     };
-    console.log(cityData);
-    if(!cityData.city_name || !cityData.city_review) {
+    console.log(userData);
+    if(!userData.city_name || !userData.city_review) {
       return;
-    } else {
-      window.location.replace('/main.html')
-    };
+    }
+
+    writeReview(userData.city_name, userData.city_review, userData.hotel_name, userData.hotel_review);
+    cityName.val("");
+    cityReview.val("");
+    hotelName.val("");
+    hotelReview.val("");
   });
+
+  function writeReview(cityname, cityreview, hotelname, hotelreview) {
+    $.post('/api/reviews', {
+      city_name: cityname,
+      city_review: cityreview,
+      hotel_name: hotelname,
+      hotel_review: hotelreview,
+    })
+      .then(function (data) {
+        window.location.reload();
+      })
+      .catch((err) => {
+        console.log(err);
+      });
+  }
 });
