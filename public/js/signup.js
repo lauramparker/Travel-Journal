@@ -1,25 +1,18 @@
 $(document).ready(function() {
 
-  //Carousel Images
-$('.carousel').carousel({
-  interval: 6000,
-  pause: "false"
-});
-
  //Signup Form
   var signUpForm = $(".signup");
   var name = $(".firstLastName");
-  var email = $('.email');
-  var password = $('.password');
+  var email = $(".email");
+  var password = $(".password");
 
   signUpForm.on('submit', (event) => {
     event.preventDefault();
-    alert(name);
   console.log(name.val());
     let userData = {
-      name: name.val().trim(),
-      email: email.val().trim(),
-      password: password.val().trim(),
+      name: name.val(),
+      email: email.val(),
+      password: password.val(),
     };
     console.log(userData);
     if(!userData.name || !userData.email || !userData.password) {
@@ -45,4 +38,11 @@ $('.carousel').carousel({
         console.log(err);
       });
   }
+
+      //Carousel Images
+  // $('.carousel').carousel({
+  //   interval: 6000,
+  //   pause: "false"
+  // });
+
 });
