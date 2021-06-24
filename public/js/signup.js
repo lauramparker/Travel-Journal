@@ -32,7 +32,7 @@ $('.carousel').carousel({
   });
 
   function signUp(name, email, password) {
-    $.post('/api/signup', {
+    app.post('/api/signup', {
       name: name,
       email: email,
       password: password,

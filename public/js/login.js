@@ -31,7 +31,7 @@ $('.carousel').carousel({
   });
 
   function logIn(email, password) {
-    $.post('/api/login', {
+    app.post('/api/login', {
       email: email,
       password: password,
     })
