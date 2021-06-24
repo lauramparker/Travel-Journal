@@ -23,26 +23,9 @@ $('.carousel').carousel({
     console.log(userData);
     if(!userData.name || !userData.email || !userData.password) {
       return;
-    }
-
-    signUp(userData.name, userData.email, userData.password);
-    name.val("");
-    email.val("");
-    password.val("");
+    } else {
+      window.location.replace('/login.html')
+    };
   });
-
-  function signUp(name, email, password) {
-    app.post('/api/signup', {
-      name: name,
-      email: email,
-      password: password,
-    })
-      .then(function (data) {
-        window.location.replace('/login');
-      })
-      .catch((err) => {
-        console.log(err);
-      });
-  }
 
 });

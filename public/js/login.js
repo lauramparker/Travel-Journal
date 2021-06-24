@@ -28,22 +28,4 @@ $('.carousel').carousel({
     };
   
   });
-    
-  //   logIn(userData.email, userData.password);
-  //   email.val("");
-  //   password.val("");
-  // });
-
-  // function logIn(email, password) {
-  //   app.post('/api/login', {
-  //     email: email,
-  //     password: password,
-  //   })
-  //     .then(function (data) {
-  //       window.location.replace('/main.html');
-  //     })
-  //     .catch((err) => {
-  //       console.log(err);
-  //     });
-  // }
 });
