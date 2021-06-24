@@ -15,7 +15,7 @@ $(document).ready(function() {
       hotel_name: hotelName.val().trim(),
       hotel_review: hotelReview.val().trim(),
     };
-    console.log(userData);
+    console.log(cityData);
     if(!cityData.city_name || !cityData.city_review) {
       return;
     } else {
