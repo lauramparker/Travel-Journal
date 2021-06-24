@@ -6,7 +6,7 @@ $('.carousel').carousel({
   pause: "false"
 });
 
- 
+ //Signup Form
   var signUpForm = $(".signup");
   var name = $(".firstLastName");
   var email = $('.email');
@@ -14,7 +14,8 @@ $('.carousel').carousel({
 
   signUpForm.on('submit', (event) => {
     event.preventDefault();
-console.log(name.val());
+    alert(name);
+  console.log(name.val());
     let userData = {
       name: name.val().trim(),
       email: email.val().trim(),

@@ -4,11 +4,6 @@ const passport = require("./config/passport");
 var exphbs = require("express-handlebars");
 var path = require('path');
 require('dotenv').config();
-//require mysql and connect to JAWS DB
-// var mysql = require('mysql');
-// var connection = mysql.createConnection(process.env.JAWSDB_URL);
-
-// connection.connect();
 
 // Require routes
 const reviewRoutes = require("./controller/review-controller");
