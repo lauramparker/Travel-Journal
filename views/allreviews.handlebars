@@ -30,13 +30,13 @@
                 <div class="card mx-auto float-left overflow-auto shadow bg-white rounded opacity-2"
                     style="width: 18rem; height: 250px">
                     <div class="card-body">
-                        <h4 class="card-title">{{this.dataValues.id}}: {{this.dataValues.city_name}}</h4>
-                        <p class="card-text">{{this.dataValues.city_review}}</p>
+                        <h4 class="card-title">{{this.review.id}}: {{this.review.city_name}}</h4>
+                        <p class="card-text">{{this.review.city_review}}</p>
                         <hr>
-                        {{#if this.dataValues.hotel_name}}
-                        <h6 class="card-subtitle mb-2 text-muted">Hotel:</h6>
-                        <h5 class="hotel-name">{{this.dataValues.hotel_name}}</h5>
-                        <p class="hotel-review">{{this.dataValues.hotel_review}}</p>
+                        {{#if this.review.hotel_name}}
+                        <h6 class="card-subtitle mb-2 text-muted">Attraction:</h6>
+                        <h5 class="hotel-name">{{this.review.hotel_name}}</h5>
+                        <p class="hotel-review">{{this.review.hotel_review}}</p>
                         {{/if}}
                     </div>
                 </div>
